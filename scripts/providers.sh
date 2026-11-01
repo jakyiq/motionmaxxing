@@ -24,7 +24,8 @@ CHROME=""
 for p in "${CHROME_PATH:-}" "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
          "/Applications/Chromium.app/Contents/MacOS/Chromium" \
          "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary" \
-         "$(command -v google-chrome 2>/dev/null)" "$(command -v chromium 2>/dev/null)"; do
+         "$(command -v google-chrome 2>/dev/null)" "$(command -v chromium 2>/dev/null)" \
+         "/c/Program Files/Google/Chrome/Application/chrome.exe" "/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"; do
   [ -n "$p" ] && [ -x "$p" ] && { CHROME="$p"; break; }
 done
 
@@ -55,6 +56,10 @@ if [ -z "$HF" ] && command -v npx >/dev/null 2>&1; then
 fi
 if [ -z "$HF" ] && ls -d "$HOME"/.npm/_npx/*/node_modules/hyperframes >/dev/null 2>&1; then
   HF="cached"; HFHOW="~/.npm/_npx cache (run: npx hyperframes)"
+fi
+if [ -z "$HF" ] && [ -n "${LOCALAPPDATA:-}" ] && command -v cygpath >/dev/null 2>&1 \
+   && ls -d "$(cygpath -u "$LOCALAPPDATA")"/npm-cache/_npx/*/node_modules/hyperframes >/dev/null 2>&1; then
+  HF="cached"; HFHOW="npm-cache/_npx cache on Windows (run: npx hyperframes)"
 fi
 
 # --- ElevenLabs
