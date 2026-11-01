@@ -1,9 +1,11 @@
 ---
 name: motionmaxxing
-description: Direct and build professional motion-graphics films (launch videos, product promos, feature reveals, brand stings, kinetic-type pieces, social ads, CTAs) that read as made by a senior motion designer, not AI slop. Finds an idea only this brand could own (from its logo, control, material, verb, voice), builds a world for it (ground, light, depth, texture, 3D or generated image surfaces for the hero moment), then builds with a seek-safe GSAP runtime driven by curves measured frame by frame from 53 professional recreations, and reviews its own render honestly with scripted gates (look.py, lint.mjs) instead of self-certifying. Given a website URL it captures the brand (colours, fonts, official logo, copy, screenshots); with an ElevenLabs key it writes and voices the script, scores it, and cuts picture and sound together. Use for any request to make, plan, storyboard, fix or critique a motion graphic or promo video, in HyperFrames or plain HTML.
+description: Make a motion-graphics film look designed rather than AI-made, or review one honestly: find an idea only this brand could own, build a world for it, time moves from curves measured on 53 professional recreations, and check the render with scripted gates (look.py, lint.mjs) instead of self-certifying. Use when Jaky asks for motionmaxxing by name, wants a film to look less generic or less like AI, or asks for a critique or second pass on a launch video, promo, social ad or kinetic-type piece. To start a new video, /hyperframes leads.
 ---
 
 # motionmaxxing
+
+> **On Jaky's machine (Kiro, Windows):** `SKILL` is `C:\Users\Administrator\.kiro\skills\motionmaxxing`. `python3` works; run `.sh` scripts with `& "C:\Program Files\Git\bin\bash.exe" <script>`. In a HyperFrames project the `/hyperframes` contract wins over this skill's runtime and templates. The files in `taste/` hold the verdicts of the skill author's own user, not Jaky's. Jaky's are in `C:\Users\Administrator\playbooks\taste.md`: read both, and add his new reactions there, not here.
 
 *Early release: this skill is still getting better, and more is on the way. If something feels off, say so in your note.*
 
