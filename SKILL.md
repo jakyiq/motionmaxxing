@@ -1,6 +1,6 @@
 ---
 name: motionmaxxing
-description: Make a motion-graphics film look designed rather than AI-made, or review one honestly: find an idea only this brand could own, build a world for it, time moves from curves measured on 53 professional recreations, and check the render with scripted gates (look.py, lint.mjs) instead of self-certifying. Use when Jaky asks for motionmaxxing by name, wants a film to look less generic or less like AI, or asks for a critique or second pass on a launch video, promo, social ad or kinetic-type piece. To start a new video, /hyperframes leads.
+description: Make a motion-graphics film look designed rather than AI-made, or review one honestly. It finds an idea only this brand could own, builds a world for it, times moves from curves measured on 53 professional recreations, and checks the render with scripted gates (look.py, lint.mjs) instead of self-certifying. Use when Jaky asks for motionmaxxing by name, wants a film to look less generic or less like AI, or asks for a critique or second pass on a launch video, promo, social ad or kinetic-type piece. To start a new video, /hyperframes leads.
 ---
 
 # motionmaxxing
